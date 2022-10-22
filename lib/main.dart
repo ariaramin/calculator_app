@@ -30,6 +30,9 @@ class _ApplicationState extends State<Application> {
     );
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        fontFamily: "Circular",
+      ),
       home: Scaffold(
         backgroundColor: backgroundColor,
         body: SafeArea(
